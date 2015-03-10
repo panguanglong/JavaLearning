@@ -14,10 +14,6 @@ public class HelloGit {
         System.out.println("hello, github");
     }
 
-    public static void sayAgain() {
-        System.out.println("hello, github again!");
-    }
-
     public static void sayGoodNight() {
         System.out.println("Good night!");
     }
