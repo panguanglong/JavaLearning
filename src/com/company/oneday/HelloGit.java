@@ -13,4 +13,8 @@ public class HelloGit {
     public static void sayGithub() {
         System.out.println("hello, github");
     }
+
+    public static void sayAgain() {
+        System.out.println("hello, github again!");
+    }
 }
