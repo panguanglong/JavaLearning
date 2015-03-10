@@ -14,6 +14,10 @@ public class HelloGit {
         System.out.println("hello, github");
     }
 
+    public static void sayTxt() {
+        System.out.println("hello,txt");
+    }
+
     public static void sayGoodNight() {
         System.out.println("Good night!");
     }
