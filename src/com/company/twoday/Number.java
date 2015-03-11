@@ -7,14 +7,23 @@ package com.company.twoday;
  */
 public class Number {
     public static void sayNumber() {
+        boolean isPrimes;
         for (int i = 2; i < 100; i++) {
-            int j;
-            for (j = 2; j < i; j++)
-                if (i % j == 0)
+            isPrimes = false;
+            if (i == 2) {
+                System.out.print(i + " ");
+                continue;
+            }
+            for (int j = 2; j < i; j++) {
+                if (i % j == 0) {
+                    isPrimes = false;
                     break;
-            {
-                if (i % j != i)
-                    System.out.print(j + " ");
+                }
+                isPrimes = true;
+            }
+
+            if (isPrimes) {
+                System.out.print(i + " ");
             }
         }
     }
