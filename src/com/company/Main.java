@@ -11,7 +11,7 @@ public class Main {
     }
 
     public static void testOneDay() {
-        HelloGit.sayHello();
+//        HelloGit.sayHello();
         HelloGit.sayGithub();
         HelloGit.sayGoodNight();
 
