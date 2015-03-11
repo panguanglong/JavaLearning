@@ -1,7 +1,8 @@
 package com.company;
 
 import com.company.oneday.HelloGit;
-import com.company.twoday.Year;
+import com.company.twoday.*;
+import com.company.twoday.Number;
 
 public class Main {
 
@@ -15,6 +16,7 @@ public class Main {
         HelloGit.sayGoodNight();
         HelloGit.sayTxt();
         Year.sayYear();
+        Number.sayNumber();
     }
     ;
 
