@@ -10,6 +10,7 @@ import java.util.Scanner;
 
 public class Year {
     public static void sayYear() {
+
         Scanner year = new Scanner(System.in);
 
         int y = Integer.parseInt(year.next());
