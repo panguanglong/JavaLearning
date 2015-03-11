@@ -15,7 +15,6 @@ public class HelloGit {
     }
 
     public static void sayTxt() {
-        System.out.println("hello,txt");
     }
 
     public static void sayGoodNight() {
