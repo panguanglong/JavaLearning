@@ -14,8 +14,9 @@ public class Main {
         HelloGit.sayHello();
         HelloGit.sayGithub();
         HelloGit.sayGoodNight();
-        HelloGit.sayTxt();
+
         Year.sayYear();
+
         Number.sayNumber();
     }
     ;
