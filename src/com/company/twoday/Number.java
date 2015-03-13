@@ -14,6 +14,7 @@ public class Number {
                 System.out.print(i + " ");
                 continue;
             }
+
             for (int j = 2; j < i; j++) {
                 if (i % j == 0) {
                     isPrimes = false;

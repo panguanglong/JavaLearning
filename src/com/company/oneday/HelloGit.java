@@ -17,4 +17,5 @@ public class HelloGit {
     public static void sayGoodNight() {
         System.out.println("Good night!");
     }
-}
+
+    }

@@ -1,6 +1,7 @@
 package com.company;
 
 import com.company.oneday.HelloGit;
+import com.company.threeday.Count;
 import com.company.twoday.*;
 import com.company.twoday.Number;
 
@@ -15,9 +16,11 @@ public class Main {
         HelloGit.sayGithub();
         HelloGit.sayGoodNight();
 
-        Year.sayYear();
 
-        Number.sayNumber();
+        Count.isOperation();
+
+
+
     }
     ;
 
