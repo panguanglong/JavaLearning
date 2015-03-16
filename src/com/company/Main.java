@@ -1,5 +1,6 @@
 package com.company;
 
+import com.company.fourday.Exercises;
 import com.company.oneday.HelloGit;
 import com.company.threeday.Count;
 import com.company.twoday.*;
@@ -12,15 +13,11 @@ public class Main {
     }
 
     public static void testOneDay() {
-        HelloGit.sayHello();
-        HelloGit.sayGithub();
-        HelloGit.sayGoodNight();
-
-
-        Count.isOperation();
-
-
-
+        Exercises.exercisesOne();
+        Exercises.exercisesTwo();
+        Exercises.exercisesThree();
+        Exercises.exercisesFour();
+        Exercises.exercisesFive();
     }
     ;
 
