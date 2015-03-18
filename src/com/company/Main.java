@@ -3,6 +3,7 @@ package com.company;
 import com.company.Fiveday.ExercisesTwo;
 import com.company.fourday.Exercises;
 import com.company.oneday.HelloGit;
+import com.company.sixday.Practice;
 import com.company.threeday.Count;
 import com.company.twoday.*;
 import com.company.twoday.Number;
@@ -27,9 +28,15 @@ public class Main {
 //        ExercisesTwo.printGraphicalTwo();
 //        ExercisesTwo.printDigitalOne();
 //        ExercisesTwo.printDigitalTwo();
-        ExercisesTwo.printDigitalThree(9);
+//        ExercisesTwo.printDigitalThree(9);
 //        ExercisesTwo.printLaw();
 //        ExercisesTwo.printDigitalExerciseEight(9);
+        Practice.forPractice();
+        Practice.forPracticeTwo();
+        Practice.forPracticeThree(3);
+        Practice.forPracticeFour();
+        Practice.forPracticeFive();
+        Practice.forPracticeSix();
     }
     ;
 
