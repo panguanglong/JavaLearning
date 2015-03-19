@@ -19,8 +19,13 @@ public class Practice {
         System.out.println();
         for (int a = 0; a < 2; a++) {
             for (int k = 0; k < 10; k++) {
+
                 for (int l = 0; l < 2; l++) {
-                    System.out.print(k);
+                    if (k == 9) {
+                        System.out.print(0);
+                    } else {
+                        System.out.print(k + 1);
+                    }
                 }
             }
         }
@@ -81,27 +86,38 @@ public class Practice {
     }
 
     public static void forPracticeSix() {
-        for (int i = 0; i < 5; i++) {
+        for (int i = 1; i <= 5; i++) {
+            for (int j = 0; j <= 5 - i; j++) {
+                System.out.print("-");
+            }
+            for (int k = 0; k <i * 2 - 1; k++) {
+                System.out.print(i*2-1);
+            }
+            for (int l = 0; l <= 5 - i; l++) {
+                System.out.print("-");
+            }
+            System.out.println();
+        }
+    }
 
+    public static void printExersize15() {
+        for (int i = 0; i < 5; i++) {
+            //左横杠
             for (int j = 0; j < 5 - i; j++) {
                 System.out.print("-");
             }
-        }
-        for (int a = 1; a < 10; a += 2) {
-            for (int b = 1; b < a + 1; b++) {
-                System.out.print(a);
+
+            //打印数字
+            for (int k = 0; k < 2 * i + 1; k++) {
+                System.out.print(2 * i + 1);
             }
-
-
-        }
-        for (int i = 0; i < 5; i++) {
-
-            for (int j = 0; j < 5 - i; j++) {
+            //打印右横杠
+            for (int l = 0; l < 5 - i; l++) {
                 System.out.print("-");
             }
 
+            System.out.println();
         }
-        System.out.println();
     }
 }
 
