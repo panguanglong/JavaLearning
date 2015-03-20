@@ -1,5 +1,6 @@
 package com.company;
 
+import com.company.Eightday.Twenty;
 import com.company.Fiveday.ExercisesTwo;
 import com.company.fourday.Exercises;
 import com.company.oneday.HelloGit;
@@ -8,6 +9,8 @@ import com.company.sixday.Practice;
 import com.company.threeday.Count;
 import com.company.twoday.*;
 import com.company.twoday.Number;
+
+import java.awt.*;
 
 public class Main {
 
@@ -50,11 +53,21 @@ public class Main {
 //        System.out.println(Parameters.largerAbsVal(4,-5));
 //        System.out.println(Parameters.largerAbsVal2(7,-2,-11));
 //        System.out.println(Parameters.largerAbsVal2(-4,5,2));
-        Parameters.quadratic(1,7,12);
+//        Parameters.quadratic(1,7,12);
 //        Parameters.padString("hello",8);
 //        Parameters.padString("congratulations",10);
 //        Parameters.vertical("hey now");
-        Parameters.printReverse("hello there!");
+//        Parameters.printReverse("hello there!");
+        Twenty.printOdds(3);
+        Twenty.printOdds(17/2);
+        int x=25;
+        Twenty.printOdds(37 - x + 1);
+        Twenty.halfTheFun(11);
+        Twenty.halfTheFun(2 - 3 + 2 * 8);
+        Twenty.sentence("one", "two", 3);
+        Twenty.mystery(1, 2, 3);
+//        Twenty.printName();
+        Twenty.swapPoints();
     }
 
 }
