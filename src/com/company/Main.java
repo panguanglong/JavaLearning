@@ -2,6 +2,8 @@ package com.company;
 
 import com.company.Eightday.Twenty;
 import com.company.Fiveday.ExercisesTwo;
+import com.company.Nineday.Conditions;
+import com.company.Tenday.Circulation;
 import com.company.fourday.Exercises;
 import com.company.oneday.HelloGit;
 import com.company.sevenday.Parameters;
@@ -58,16 +60,30 @@ public class Main {
 //        Parameters.padString("congratulations",10);
 //        Parameters.vertical("hey now");
 //        Parameters.printReverse("hello there!");
-        Twenty.printOdds(3);
-        Twenty.printOdds(17/2);
-        int x=25;
-        Twenty.printOdds(37 - x + 1);
-        Twenty.halfTheFun(11);
-        Twenty.halfTheFun(2 - 3 + 2 * 8);
-        Twenty.sentence("one", "two", 3);
-        Twenty.mystery(1, 2, 3);
+//        Twenty.printOdds(3);
+//        Twenty.printOdds(17/2);
+//        int x=25;
+//        Twenty.printOdds(37 - x + 1);
+ ////       Twenty.halfTheFun(11);
+//        Twenty.halfTheFun(2 - 3 + 2 * 8);
+//        Twenty.sentence("one", "two", 3);
+//        Twenty.mystery(1, 2, 3);
 //        Twenty.printName();
-        Twenty.swapPoints();
+//        Twenty.swapPoints();
+//        Conditions.fractionSum(5);
+//        Conditions.repHello(3,"hello");
+//        Conditions.printFactors(24);
+//        Conditions.printLetters("Rabbit");
+//        Conditions.printPow(3,4);
+//        Conditions.printMamAadMin();
+//        Conditions.isStringNull();
+//        Conditions.printLetters(null);
+//        Conditions.printMaxAndMin();
+        Circulation.printName();
+//        Circulation.printNumber();
+//        Circulation.printX();
+//        Circulation.printXTow();
+//        Circulation.printString();
     }
 
 }
