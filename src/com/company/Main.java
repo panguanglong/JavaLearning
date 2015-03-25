@@ -1,6 +1,7 @@
 package com.company;
 
 import com.company.Eightday.Twenty;
+import com.company.Elevenday.CirculationTwo;
 import com.company.Fiveday.ExercisesTwo;
 import com.company.Nineday.Conditions;
 import com.company.Tenday.Circulation;
@@ -79,11 +80,18 @@ public class Main {
 //        Conditions.isStringNull();
 //        Conditions.printLetters(null);
 //        Conditions.printMaxAndMin();
-        Circulation.printName();
+//        Circulation.printName();
 //        Circulation.printNumber();
 //        Circulation.printX();
 //        Circulation.printXTow();
 //        Circulation.printString();
+//        CirculationTwo.makeGuesses();
+//        CirculationTwo.playDice();
+//        CirculationTwo.showTwos(18);
+//        CirculationTwo.printTurn();
+//        CirculationTwo.numContinuous(-12,-13,-11);
+//        CirculationTwo.numUnique(2,3,18);
+        CirculationTwo.randomWalk(7);
     }
 
 }
